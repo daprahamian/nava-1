@@ -19,7 +19,7 @@ npm install
 npm run build
 ```
 
-## Run
+## Run (requires you to build first)
 
 ```sh
 npm run submit
