@@ -4,22 +4,29 @@
   "description": "Exercise for NAVA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "lint": "eslint src/ --ext .ts",
-    "build": "npm run lint && tsc",
+    "compile": "tsc",
+    "build": "npm run lint && npm run compile",
     "dev": "tsc -w"
   },
   "author": "Dan Aprahamian",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.8",
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
+    "chai": "^4.2.0",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.2",
     "prettier": "^1.19.1",
+    "ts-node": "^8.5.2",
     "typescript": "^3.7.2"
   }
 }
