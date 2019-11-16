@@ -1,0 +1,15 @@
+{
+  "name": "nava-1",
+  "version": "1.0.0",
+  "description": "Exercise for NAVA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Dan Aprahamian",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
