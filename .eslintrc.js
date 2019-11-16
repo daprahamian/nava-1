@@ -13,5 +13,8 @@ module.exports = {
   rules: {
     'import/no-extraneous-dependencies': [2, { devDependencies: ['**/test.tsx', '**/test.ts'] }],
     '@typescript-eslint/indent': [2, 2],
+    '@typescript-eslint/no-use-before-define': 0,
+    '@typescript-eslint/camelcase': 0,
+    '@typescript-eslint/no-explicit-any': 0
   },
 };
