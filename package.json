@@ -11,6 +11,10 @@
     "dev": "tsc -w",
     "submit": "node lib/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daprahamian/nava-1.git"
+  },
   "author": "Dan Aprahamian",
   "license": "ISC",
   "devDependencies": {
